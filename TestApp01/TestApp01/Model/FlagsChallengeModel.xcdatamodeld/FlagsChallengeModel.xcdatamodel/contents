@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24C101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AppStateEntity" representedClassName="AppStateEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="challengeStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currentQuestionIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gameOver" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="preStartCountdownStartedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="questionPhaseStart" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="revealedData" optional="YES" attributeType="Binary"/>
+        <attribute name="scheduledTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selectionData" optional="YES" attributeType="Binary"/>
+    </entity>
+</model>
